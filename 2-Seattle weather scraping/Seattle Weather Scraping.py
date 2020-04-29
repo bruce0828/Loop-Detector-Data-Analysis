@@ -122,7 +122,7 @@ for date in dates:
     t += 1   
 #     print(date,t)
 
-res.set_index('date').to_csv(r'C:\Users\ZY\Desktop\seattle_weather2.csv',encoding='utf-8')
+res.set_index('date').to_csv(r'C:\Users\ZY\Desktop\seattle_weather.csv',encoding='utf-8')
 
 
 
